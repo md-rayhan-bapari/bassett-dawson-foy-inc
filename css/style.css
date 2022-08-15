@@ -141,7 +141,7 @@ header .navbar a:hover {
 .features {
       height: 220px;
       display: flex;
-      position: relative
+      position: relative;
 }
 .ft__box img{
       width: 100%;
@@ -158,4 +158,62 @@ header .navbar a:hover {
 }
 .ft__inner-text {
       margin-left: 30px;
+}
+.ft__inner-text  h3 {
+      font-weight: 700;
+      font-size: 1.2rem;
+      line-height: 1.6;
+      color: var(--white-color);
+}
+.ft__inner-text p {
+      font-weight: 400;
+      font-size: 1rem;
+      line-height: 1.6;
+      color: var(--white-color);
+}
+.services {
+      margin-top: 40px;
+}
+
+.service__title {
+      text-align: center;
+      font-weight: 700;
+      font-size: 2rem;
+      margin-bottom: 15px;
+      color: #222;
+}
+.services__tagline {
+      text-align: center;
+      font-weight: 400;
+      font-size: 1rem;
+      color: #707070;
+}
+.services__card-area {
+      display: grid;
+      width: 80vw;
+      grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+      margin: 50px auto 0 auto;
+      grid-gap: 25px;
+}
+.services__card {
+      width: 326px;
+      height: 362px;
+      border: px solid black;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      border-radius: 10px;
+}
+.services__card-content {
+      padding: 15px 0 0 30px;
+}
+.services__card-content h3 {
+      font-weight: 700;
+      font-size: 1.2rem;
+      color: var(--main-color);
+      margin-bottom: 10px;
+}
+.services__card-content p {
+      font-weight: 400;
+      font-size: 1rem;
+      line-height: 1.4rem;
+      color: #222;
 }
