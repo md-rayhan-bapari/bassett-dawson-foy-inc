@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,104 +8,76 @@
       <title>Bassett, Dawson & Foy, inc.</title>
       <!-- Stylesheet -->
       <link rel="stylesheet" href="./css/style.css">
+      <link rel="stylesheet" href="./css/responsive.css">
+      <!-- font awesome cdn link  -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
+
 <body>
+      <!-------//**** Header Section ****\\------->
       <header>
-            <div class="logo">
-                  <img src="./img/logo.png" alt="logo">
-            </div>
-            <div class="nav__menu">
-                  <ul class="nav__items">
-                        <li class="nav__list">
-                              <a href="" class="nav__links">Home</a>
-                        </li>
-                        <li class="nav__list">
-                              <a href="" class="nav__links">About Us</a>
-                        </li>
-                        <li class="nav__list">
-                              <a href="" class="nav__links">Resources</a>
-                        </li>
-                        <li class="nav__list">
-                              <a href="" class="nav__links">Contact Us</a>
-                        </li>
-                  </ul>
-            </div>
+            <img class="logo" src="./img/logo.png" alt="">
+            <nav class="navbar">
+                  <a href="#home">home</a>
+                  <a href="#services">services</a>
+                  <a href="#about">about us</a>
+                  <a href="#blog">blog</a>
+                  <a href="#resources">resources</a>
+                  <a href="#contact">contact</a>
+            </nav>
+            <div id="menu-bar" class="fas fa-bars"></div>
       </header>
-      <section class="hero">
-            <div class="hero__inner">
-                  <p class="hero__title-span">SINCE 1985</p>
-                  <h1 class="hero__title">Bassett, Dawson & Foy, inc.</h1>
-                  <p class="hero__content">Bassett, Dawson & Foy, inc. is not a registered broker/dealer and is independent of Raymond James Financial Services, Inc. Member FINRA/SIPC.</p>
+      <!-------//**** Home Section ****\\------->
+      <section class="home" id="home">
+            <div class="content">
+                  <h3>adventure is worthwhile</h3>
+                  <p>Bassett, Dawson & Foy, inc. is not a registered broker/dealer and is independent of <br> Raymond James Financial Services, Inc. Member FINRA/SIPC.</p>
+                  <div class="home__btn">
+                        <a href="#" class="btn">discover more</a>
+                        <a href="#" class="btn2">discover more</a>
+                  </div>
+            </div>
+            <!-- <div class="img-container">
+                  <img src="./img/home-banner.png" >
+            </div> -->
+      </section>
 
-                  <div class="hero__btn">
-                        <a href="">Learn More</a>
-                        <a href="">Contact Us</a>
+      <section class="features">
+            <div class="ft__box">
+                  <img src="./img/cta-1.png" alt="">
+                  <div class="ft__content">
+                        <img src="./img/phone.png" alt="">
+                        <div class="ft__inner-text">
+                              <h3>Support</h3>
+                              <p>Lorem ipsum dolor sit amet.</p>
+                              <a href="#">Learn more</a>
+                        </div>
+                  </div>
+            </div>
+            <div class="ft__box">
+                  <img src="./img/cta-2.png" alt="">
+                  <div class="ft__content">
+                        <img src="./img/calculator.png" alt="">
+                        <div class="ft__inner-text">
+                              <h3>Support</h3>
+                              <p>Lorem ipsum dolor sit amet.</p>
+                              <a href="#">Learn more</a>
+                        </div>
+                  </div>
+            </div>
+            <div class="ft__box">
+                  <img src="./img/cta-3.png" alt="">
+                  <div class="ft__content">
+                        <img src="./img/video.png" alt="">
+                        <div class="ft__inner-text">
+                              <h3>Support</h3>
+                              <p>Lorem ipsum dolor sit amet.</p>
+                              <a href="#">Learn more</a>
+                        </div>
                   </div>
             </div>
       </section>
-      <section class="hero__cta">
-            <div class="cta-box-1">
-                  <img src="./img/phone.png" alt="phone">
-                  <div class="cta__box">
-                        <h3 class="cta__title">Support</h3>
-                        <p class="cta__content">Lorem ipsum dolor sit amet consectetur.</p>
-                        <a href="#">Learn More</a>
-                  </div>
-            </div>
-            <div class="cta-box-2">
-                  <img src="./img/calculator.png" alt="calculator">
-                  <h3 class="cta__title">Calculations</h3>
-                  <p class="cta__content">Lorem ipsum dolor sit amet consectetur.</p>
-                  <a href="#">Learn More</a>
-            </div>
-            <div class="cta-box-3">
-                  <img src="./img/video.png" alt="video">
-                  <h3 class="cta__title">Videos</h3>
-                  <p class="cta__content">Lorem ipsum dolor sit amet consectetur.</p>
-                  <a href="#">Learn More</a>
-            </div>
-      </section>
-      <section class="service">
-            <h2 class="services__title">Services We Provide</h2>
-            <p class="services__tagline">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, ipsam?</p>
-            <div class="service__card1">
-                  <img src="" alt="">
-                  <h3 class="services__card-title"></h3>
-                  <p class="service__card-content"></p>
-                  <a href="" class="services__btn"></a>
-            </div>
-            <div class="service__card2">
-                  <img src="" alt="">
-                  <h3 class="services__card-title"></h3>
-                  <p class="service__card-content"></p>
-                  <a href="" class="services__btn"></a>
-            </div>
-            <div class="service__card3">
-                  <img src="" alt="">
-                  <h3 class="services__card-title"></h3>
-                  <p class="service__card-content"></p>
-                  <a href="" class="services__btn"></a>
-            </div>
-            <div class="service__card4">
-                  <img src="" alt="">
-                  <h3 class="services__card-title"></h3>
-                  <p class="service__card-content"></p>
-                  <a href="" class="services__btn"></a>
-            </div>
-            <div class="service__card5">
-                  <img src="" alt="">
-                  <h3 class="services__card-title"></h3>
-                  <p class="service__card-content"></p>
-                  <a href="" class="services__btn"></a>
-            </div>
-            <div class="service__card6">
-                  <img src="" alt="">
-                  <h3 class="services__card-title"></h3>
-                  <p class="service__card-content"></p>
-                  <a href="" class="services__btn"></a>
-            </div>
-      </section>
-
-
+      <script src="./js/index.js"></script>
 </body>
+
 </html>
