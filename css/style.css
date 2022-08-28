@@ -251,6 +251,7 @@ header .navbar a:hover {
       left: 400px;
       top: -60px;
 }
+
 .about__headline {
       font-weight: 500;
       font-size: 2rem;
@@ -258,6 +259,7 @@ header .navbar a:hover {
       color: var(--white-color);
       margin-bottom: 10px;
 }
+
 .about__headline-content {
       font-weight: 400;
       font-size: .9rem;
@@ -265,10 +267,161 @@ header .navbar a:hover {
       color: var(--white-color);
       margin-bottom: 30px;
 }
+
 .about__content {
       padding: 0 200px;
       font-weight: 400;
       font-size: .9rem;
       color: var(--white-color);
       line-height: 1.5rem;
+}
+
+.resouces {
+      background-image: url(../img/resouces-bg.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      padding: 50px 0;
+}
+
+.resouces-container {
+      position: relative;
+      width: 800px;
+      min-width: 350px;
+      min-height: 250px;
+      padding-bottom: 40px;
+      overflow: hidden;
+      margin: 0 auto;
+}
+
+.resouces-wrapper {
+      width: 300%;
+      /* 300% 'caz we have 3 cards */
+      min-height: 100%;
+      display: flex;
+      justify-content: space-between;
+      transition: 1s;
+}
+
+.card__resouces {
+      width: 800px;
+      min-height: 100%;
+      background: #fff;
+      border-radius: 20px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      margin: 0 10px;
+}
+
+.card__resouces-thumb {
+      width: 70%;
+      height: 250px;
+      overflow: hidden;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      position: relative;
+}
+
+.resouces-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+}
+
+.card__resouces-body {
+      width: 120%;
+      min-height: 100%;
+      height: auto;
+      margin-left: 20px;
+      position: relative;
+      padding-bottom: 50px;
+}
+
+.review {
+      font-weight: 400;
+      font-size: 1rem;
+      line-height: 30px;
+      margin-top: 30px;
+}
+
+.indicators {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+}
+
+.indicators button {
+      background: none;
+      border: none;
+      outline: none;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      border: 2px solid #fff;
+      cursor: pointer;
+      margin-left: 5px;
+      transition: .5s;
+}
+
+button.active {
+      width: 40px;
+      border-radius: 50px;
+      background: #fff;
+}
+
+.blog {
+      margin: 40px 0;
+}
+
+.blog__title {
+      text-align: center;
+      font-weight: 700;
+      font-size: 2rem;
+      margin-bottom: 15px;
+      color: #222;
+}
+
+.blog__tagline {
+      text-align: center;
+      font-weight: 400;
+      font-size: 1rem;
+      color: #707070;
+}
+
+.blog__card-area {
+      display: grid;
+      width: 80vw;
+      grid-template: repeat(1, 1fr) / repeat(3, 1fr);
+      margin: 50px auto 0 auto;
+      grid-gap: 25px;
+}
+
+.blog__card {
+      width: 326px;
+      height: 362px;
+      border: px solid black;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      border-radius: 10px;
+}
+
+.blog__card-content {
+      padding: 15px 0 0 30px;
+}
+
+.blog__card-content h3 {
+      font-weight: 700;
+      font-size: 1.2rem;
+      color: var(--main-color);
+      margin-bottom: 10px;
+}
+
+.blog__card-content p {
+      font-weight: 400;
+      font-size: 1rem;
+      line-height: 1.4rem;
+      color: #222;
 }
