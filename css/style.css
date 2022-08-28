@@ -12,9 +12,10 @@
       box-sizing: border-box;
       text-transform: capitalize;
       outline: none;
-      border: none;
+      /* border: none; */
       text-decoration: none;
       transition: all .2s linear;
+      box-sizing: border-box;
 }
 
 *::selection {
@@ -424,4 +425,73 @@ button.active {
       font-size: 1rem;
       line-height: 1.4rem;
       color: #222;
+}
+
+.contact {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+}
+
+.contact__section {
+      padding: 15px 0 30px 60px;
+}
+
+.contact__title {
+      font-weight: 700;
+      font-size: 2rem;
+      color: var(--main-color);
+      margin-bottom: 20px;
+}
+
+.contact__tagline {
+      font-weight: 400;
+      font-size: 1rem;
+      line-height: 1.5rem;
+      margin-bottom: 50px;
+}
+
+.contact__img img {
+      width: 700px;
+      height: 800px;
+}
+
+form {
+      display: flex;
+      flex-direction: column;
+}
+
+input[type=text] {
+      border: 1px solid #DCDFE4;
+      height: 40px;
+      margin-bottom: 20px;
+      padding: 0 0 0 10px;
+      border-radius: 5px;
+}
+
+input[type=email] {
+      border: 1px solid #DCDFE4;
+      height: 40px;
+      margin-bottom: 20px;
+      padding: 0 0 0 10px;
+      border-radius: 5px;
+}
+
+input[type=tel] {
+      border: 1px solid #DCDFE4;
+      height: 40px;
+      margin-bottom: 20px;
+      padding: 0 0 0 10px;
+      border-radius: 5px;
+}
+
+textarea {
+      border: 1px solid #DCDFE4;
+      padding: 10px 0 0 10px;
+      border-radius: 5px;
+      margin-bottom: 30px;
+}
+
+#submitBtn:hover{
+      background: var(--main-color);
 }
